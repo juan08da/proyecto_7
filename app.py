@@ -26,7 +26,7 @@ if dispersion_button: # al hacer clic en el botón
     fig = px.scatter(car_data, x="odometer", y="price")
         
     # mostrar un gráfico Plotly interactivo
-    fig.show()
+    st.plotly_chart(fig)
 
 
     
